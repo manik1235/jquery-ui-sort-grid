@@ -1,19 +1,19 @@
-body {
-  cursor: pointer;
-}
-
-#sortable {
+.sortable-bucket {
+  height: 650px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 650px;
 }
 
-#sortable li {
+.sortable-bucket .bucket-cell {
+  cursor: pointer;
+  float: left;
+  font-size: 4em;
+  height: 90px;
+  list-style-type: none;
   margin: 3px 3px 3px 0;
   padding: 1px;
-  float: left;
+  text-align: center;
   width: 100px;
-  height: 90px;
-  font-size: 4em; text-align: center;
 }
